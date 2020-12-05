@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/17_RL/Scenes/01_Max10Collisions.unity
+    guid: 474281e46f9865241a9fd343d3b67aad
+  - enabled: 0
+    path: Assets/17_RL/Scenes/02_ParkingTraining.unity
+    guid: 801e08fa004fed945b2a807c5510e9ac
+  - enabled: 0
+    path: Assets/17_RL/Scenes/03_ChangingLineWidth.unity
+    guid: d743edf99a3230b4bbaff15702353caf
+  - enabled: 0
+    path: Assets/17_RL/Scenes/04_TurningPower.unity
+    guid: 6ab68c17c479f9645a9fb320e49ef94a
+  - enabled: 0
+    path: Assets/17_RL/Scenes/06_Parking2.unity
+    guid: d7dce1c71cd47534b930a7a33b9a0445
+  - enabled: 0
+    path: Assets/17_RL/Scenes/07_DBOrientationObservations.unity
+    guid: 252a92e89f75e7a408d89c4be47aff43
+  - enabled: 0
+    path: Assets/17_RL/Scenes/08_SwitchingCarSprites.unity
+    guid: c8a027f7e0cd33b43be7272dc54a00bb
+  - enabled: 0
+    path: Assets/Global/Scenes/PBTrainigScene.unity
+    guid: 871c49c7ebc1140488d6be4ed55d1518
+  - enabled: 1
+    path: Assets/Global/Scenes/DBTraining Scene.unity
+    guid: 41299fa9046c5c14f86a89ca0ba70522
+  m_configObjects: {}

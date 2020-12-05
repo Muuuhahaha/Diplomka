@@ -1,0 +1,14 @@
+{
+  "measure": "reward",
+  "thresholds": [],
+  "min_lesson_length": 1000,
+  "signal_smoothing": true,
+  "parameters":  {
+    "min_length": [ 1000 ], 
+    "secondary_path_type_probability": [ 1 ],
+    "turn_signal_power": [ 1 ],
+    "db_base_steering_change_reward_mult": [ -1 ],
+    "db_total_distance_reward": [ 0.5 ],
+    "db_base_time_reward_per_frame": [ 0 ]
+  }
+}

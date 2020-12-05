@@ -1,0 +1,15 @@
+{
+  "measure": "reward",
+  "thresholds": [0.5, 0.5, 0.5, 0.4, 0.6],
+  "min_lesson_length": 1000,
+  "signal_smoothing": true,
+  "parameters":  {
+    "pb_dist_treshold": [10, 5, 4, 2, 1, 0.75],
+    "pb_angle_treshold": [90, 90, 90, 90, 50, 40],
+    "max_crashes": [1, 1, 1, 1, 1, 1],
+    "pb_reward_type": [0, 0, 0, 0, 0, 0],
+    "pb_use_cone_reward": [0, 0, 0, 0, 0, 0],
+    "pb_time_per_frame_reward": [0, 0, 0, -0.0001, -0.0001, -0.0001],
+    "pb_steering_change_reward_mult": [0, 0, -0.01, -0.02,-0.02,-0.02]
+  }
+}

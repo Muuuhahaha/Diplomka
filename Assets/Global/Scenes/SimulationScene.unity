@@ -1,0 +1,6213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &14510895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 14510896}
+  - component: {fileID: 14510899}
+  - component: {fileID: 14510898}
+  - component: {fileID: 14510897}
+  m_Layer: 0
+  m_Name: Agent (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &14510896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14510895}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &14510897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14510895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &14510898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14510895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &14510899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14510895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &83726573
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83726574}
+  - component: {fileID: 83726577}
+  - component: {fileID: 83726576}
+  - component: {fileID: 83726575}
+  m_Layer: 0
+  m_Name: Agent (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83726574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83726573}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &83726575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83726573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &83726576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83726573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &83726577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83726573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &187020203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 187020204}
+  - component: {fileID: 187020207}
+  - component: {fileID: 187020206}
+  - component: {fileID: 187020205}
+  m_Layer: 0
+  m_Name: Agent (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &187020204
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187020203}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &187020205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187020203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &187020206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187020203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &187020207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 187020203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &231817013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 231817014}
+  - component: {fileID: 231817017}
+  - component: {fileID: 231817016}
+  - component: {fileID: 231817015}
+  m_Layer: 0
+  m_Name: Agent (36)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &231817014
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231817013}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &231817015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231817013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &231817016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231817013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &231817017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 231817013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &233274600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 233274601}
+  - component: {fileID: 233274604}
+  - component: {fileID: 233274603}
+  - component: {fileID: 233274602}
+  m_Layer: 0
+  m_Name: Agent (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &233274601
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233274600}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &233274602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233274600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &233274603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233274600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &233274604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 233274600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &329908711
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 329908712}
+  - component: {fileID: 329908715}
+  - component: {fileID: 329908714}
+  - component: {fileID: 329908713}
+  m_Layer: 0
+  m_Name: Agent (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &329908712
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329908711}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &329908713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329908711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &329908714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329908711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &329908715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329908711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &383841629
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 383841630}
+  - component: {fileID: 383841633}
+  - component: {fileID: 383841632}
+  - component: {fileID: 383841631}
+  m_Layer: 0
+  m_Name: Agent (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &383841630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383841629}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &383841631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383841629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &383841632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383841629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &383841633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383841629}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &549412925
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 549412926}
+  - component: {fileID: 549412929}
+  - component: {fileID: 549412928}
+  - component: {fileID: 549412927}
+  m_Layer: 0
+  m_Name: Agent (35)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &549412926
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549412925}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &549412927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549412925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &549412928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549412925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &549412929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549412925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &738866488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 738866489}
+  - component: {fileID: 738866492}
+  - component: {fileID: 738866491}
+  - component: {fileID: 738866490}
+  m_Layer: 0
+  m_Name: Agent (24)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &738866489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738866488}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &738866490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738866488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &738866491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738866488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &738866492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738866488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &759456874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 759456875}
+  - component: {fileID: 759456878}
+  - component: {fileID: 759456877}
+  - component: {fileID: 759456876}
+  m_Layer: 0
+  m_Name: Agent (33)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &759456875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759456874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &759456876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759456874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &759456877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759456874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &759456878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759456874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &813021547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813021550}
+  - component: {fileID: 813021548}
+  m_Layer: 0
+  m_Name: Settings
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &813021548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813021547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838113ec74368284a8a771abc95597b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AgentSettingsFile: config\car configs\Final.yaml
+  MapFilePath: maps\newstd.osm
+  MinLineWidth: 1.1
+  MaxLineWidth: 1.4
+  CrossroadSize: 4
+  MaxHeight: 0
+  DisableMovingCrossroadCorners: 1
+  UseFixedMapSeedInEditor: 1
+  EasyFailureCheck: 1
+  MaxTimeOutsideMap: 250
+  ParkingAreasPerRoad: 7
+  PSLength: 4
+  PSWidth: 2.1
+  PSInitCars: 2
+  PSMinSlots: 3
+  PSMaxSlots: 4
+  SteerAngle: 50
+  ViewDistance: 20
+  TurnSignalExponent: 2
+  MaxNumberOfCrashes: 20
+  PersistingCrashRatio: 0.01
+  ContinuousBrain: 1
+  UseRelativeCarSpeed: 1
+  UseSkyCarDetection: 0
+  CarPrefab: {fileID: 811287969537993087, guid: 0af1c67ed55f53340befef54e8e8aec3,
+    type: 3}
+  DebugEpisodeSummary: 1
+  ShowOnlyMainCarRays: 1
+  DebugRaysRoadDistance: 0
+  DebugRaysCarDistance: 0
+  DebugRaysNextPoint: 0
+  DebugRaysPath: 1
+  DebugRaysIsBehindCarCheck: 0
+  DebugRaysOther: 0
+  DebugLogBrainSwitch: 1
+  OnlyControlMainAgentWithHeuristics: 1
+  ShowEndPositions: 1
+  ShowParkingSpaceAvailibility: 0
+  PathType: 1
+  SecondaryType: 5
+  SecondaryTypeProbability: 0
+  MinPathLength: 1000
+  DBModel: {fileID: 5022602860645237092, guid: e4482d0104045ee4dadc2d4f25d8647b, type: 3}
+  DBTotalDistanceReward: 0.5
+  DBFinishedReward: 0.3
+  DistToRewardMult: 0
+  DBFailureReward: -1
+  MinFramesBetweenCrashes: 15
+  DistFromCenterRewardMult: 0
+  DistFromCenterTreshold: 0.3
+  TooCloseObstacleTreshold: 2
+  TooCloseObstacleRewardMult: 0
+  DBBaseTimeRewardPerFrame: 0
+  DBSteeringRewardRatio: 0
+  DBMaxAlignRewardAngle: 2
+  DBBaseSteeringChangeRewardMult: 0
+  DBMinProgressIncrement: 5
+  DBMaxTimeWithoutProgress: 1200
+  DBMaxExperimentTime: 1000000
+  DBMaxTimeOnCrossroad: 750000
+  DBMaxDistanceFromLineCenter: 2
+  DBMinDistanceFromLineEdge: 0.1
+  DBDistFromGoal: 0.5
+  PBModel: {fileID: 5022602860645237092, guid: e621fa074b374574992dd5be58a5a51a, type: 3}
+  PBMaxTime: 2000
+  PBDistanceTreshold: 5
+  PBAngleTreshold: 90
+  PBDistanceRewardPower: 1
+  PBBaseRewardOnBestPositionOnly: 0
+  PBUseConeReward: 0
+  PBTimeRewardPerFrame: -0.0003
+  PBMaxAgentsPerParkingSpace: 1
+  PBSteeringChangeRewardMult: -0.01
+  PBMaxInitSpeed: 10
+  PBTimeWithoutMovementTreshold: 90
+--- !u!4 &813021550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813021547}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.889511, y: -19.5, z: 0.29957747}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &834671673
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 834671674}
+  - component: {fileID: 834671677}
+  - component: {fileID: 834671676}
+  - component: {fileID: 834671675}
+  m_Layer: 0
+  m_Name: Agent (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &834671674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834671673}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &834671675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834671673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &834671676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834671673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &834671677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834671673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &888260147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 888260148}
+  - component: {fileID: 888260151}
+  - component: {fileID: 888260150}
+  - component: {fileID: 888260149}
+  m_Layer: 0
+  m_Name: Agent (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &888260148
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888260147}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &888260149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888260147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &888260150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888260147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &888260151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888260147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &892491337
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 892491338}
+  - component: {fileID: 892491341}
+  - component: {fileID: 892491340}
+  - component: {fileID: 892491339}
+  m_Layer: 0
+  m_Name: Agent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &892491338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892491337}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &892491339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892491337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &892491340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892491337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &892491341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 892491337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &906277439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 906277440}
+  m_Layer: 0
+  m_Name: Environment
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &906277440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 906277439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2018285263}
+  - {fileID: 1047993270}
+  - {fileID: 1121210102}
+  - {fileID: 1255366915}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &921373093
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 921373094}
+  - component: {fileID: 921373097}
+  - component: {fileID: 921373096}
+  - component: {fileID: 921373095}
+  m_Layer: 0
+  m_Name: Agent (30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &921373094
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921373093}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &921373095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921373093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &921373096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921373093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &921373097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921373093}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &921811812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 921811813}
+  - component: {fileID: 921811816}
+  - component: {fileID: 921811815}
+  - component: {fileID: 921811814}
+  m_Layer: 0
+  m_Name: Agent (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &921811813
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921811812}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &921811814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921811812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &921811815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921811812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &921811816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921811812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &922374927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 922374928}
+  - component: {fileID: 922374931}
+  - component: {fileID: 922374930}
+  - component: {fileID: 922374929}
+  m_Layer: 0
+  m_Name: Agent (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &922374928
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922374927}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &922374929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922374927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &922374930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922374927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &922374931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922374927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &960254898
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 960254899}
+  - component: {fileID: 960254902}
+  - component: {fileID: 960254901}
+  - component: {fileID: 960254900}
+  m_Layer: 0
+  m_Name: Agent (34)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &960254899
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960254898}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &960254900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960254898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &960254901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960254898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &960254902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960254898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &983093154
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 983093155}
+  - component: {fileID: 983093158}
+  - component: {fileID: 983093157}
+  - component: {fileID: 983093156}
+  m_Layer: 0
+  m_Name: Agent (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &983093155
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983093154}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &983093156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983093154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &983093157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983093154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &983093158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983093154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1047993269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1047993270}
+  - component: {fileID: 1047993271}
+  m_Layer: 0
+  m_Name: IdleCarManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1047993270
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047993269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 906277440}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1047993271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047993269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d2f05734efeae47bdd426d8759e662, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 813021548}
+--- !u!1 &1050492506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1050492507}
+  - component: {fileID: 1050492510}
+  - component: {fileID: 1050492509}
+  - component: {fileID: 1050492508}
+  m_Layer: 0
+  m_Name: Agent (31)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1050492507
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050492506}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1050492508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050492506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1050492509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050492506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1050492510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1050492506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1102767237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1102767238}
+  - component: {fileID: 1102767241}
+  - component: {fileID: 1102767240}
+  - component: {fileID: 1102767239}
+  m_Layer: 0
+  m_Name: Agent (27)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1102767238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102767237}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1102767239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102767237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1102767240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102767237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1102767241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102767237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1121210101
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1121210102}
+  m_Layer: 0
+  m_Name: Agents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1121210102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121210101}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 892491338}
+  - {fileID: 1377035603}
+  - {fileID: 83726574}
+  - {fileID: 329908712}
+  - {fileID: 2101473841}
+  - {fileID: 922374928}
+  - {fileID: 14510896}
+  - {fileID: 888260148}
+  - {fileID: 383841630}
+  - {fileID: 921811813}
+  - {fileID: 834671674}
+  - {fileID: 1352868095}
+  - {fileID: 1507143665}
+  - {fileID: 233274601}
+  - {fileID: 1148232377}
+  - {fileID: 1912138037}
+  - {fileID: 187020204}
+  - {fileID: 1510049417}
+  - {fileID: 983093155}
+  - {fileID: 1282846202}
+  - {fileID: 1659744063}
+  - {fileID: 1829839543}
+  - {fileID: 1712778862}
+  - {fileID: 2024692753}
+  - {fileID: 738866489}
+  - {fileID: 2081667049}
+  - {fileID: 1800989271}
+  - {fileID: 1102767238}
+  - {fileID: 1387860301}
+  - {fileID: 1919716696}
+  - {fileID: 921373094}
+  - {fileID: 1050492507}
+  - {fileID: 1288251149}
+  - {fileID: 759456875}
+  - {fileID: 960254899}
+  - {fileID: 549412926}
+  - {fileID: 231817014}
+  - {fileID: 1505111086}
+  - {fileID: 1573038084}
+  - {fileID: 1164733576}
+  m_Father: {fileID: 906277440}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1148232376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1148232377}
+  - component: {fileID: 1148232380}
+  - component: {fileID: 1148232379}
+  - component: {fileID: 1148232378}
+  m_Layer: 0
+  m_Name: Agent (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1148232377
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148232376}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1148232378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148232376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1148232379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148232376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1148232380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148232376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1164733575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1164733576}
+  - component: {fileID: 1164733579}
+  - component: {fileID: 1164733578}
+  - component: {fileID: 1164733577}
+  m_Layer: 0
+  m_Name: Agent (39)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1164733576
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164733575}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1164733577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164733575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1164733578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164733575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1164733579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164733575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1247150050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1247150055}
+  - component: {fileID: 1247150054}
+  - component: {fileID: 1247150053}
+  - component: {fileID: 1247150052}
+  - component: {fileID: 1247150051}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1247150051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247150050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09b11419606a3482ba74f6545db6aff9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  follow: 1
+  agent: {fileID: 892491341}
+  offset: {x: 0, y: 3, z: -8}
+  lerpPositionMultiplier: 10
+  lerpRotationMultiplier: 10
+--- !u!54 &1247150052
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247150050}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!81 &1247150053
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247150050}
+  m_Enabled: 1
+--- !u!20 &1247150054
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247150050}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1247150055
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1247150050}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1255366914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1255366915}
+  - component: {fileID: 1255366918}
+  - component: {fileID: 1255366917}
+  - component: {fileID: 1255366916}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1255366915
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255366914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.03, z: 0}
+  m_LocalScale: {x: 1000000, y: 1000000, z: 1000000}
+  m_Children: []
+  m_Father: {fileID: 906277440}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &1255366916
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255366914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1255366917
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255366914}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 5ae3dc6038fdabe429dff4b1b56a5bcb, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1255366918
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1255366914}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1282846201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1282846202}
+  - component: {fileID: 1282846205}
+  - component: {fileID: 1282846204}
+  - component: {fileID: 1282846203}
+  m_Layer: 0
+  m_Name: Agent (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1282846202
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282846201}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1282846203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282846201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1282846204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282846201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1282846205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1282846201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1288251148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1288251149}
+  - component: {fileID: 1288251152}
+  - component: {fileID: 1288251151}
+  - component: {fileID: 1288251150}
+  m_Layer: 0
+  m_Name: Agent (32)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1288251149
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288251148}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1288251150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288251148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1288251151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288251148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1288251152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1288251148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1352868094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1352868095}
+  - component: {fileID: 1352868098}
+  - component: {fileID: 1352868097}
+  - component: {fileID: 1352868096}
+  m_Layer: 0
+  m_Name: Agent (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1352868095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352868094}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1352868096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352868094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1352868097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352868094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1352868098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352868094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1377035602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1377035603}
+  - component: {fileID: 1377035606}
+  - component: {fileID: 1377035605}
+  - component: {fileID: 1377035604}
+  m_Layer: 0
+  m_Name: Agent (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1377035603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377035602}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1377035604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377035602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1377035605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377035602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1377035606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1377035602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1387860300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1387860301}
+  - component: {fileID: 1387860304}
+  - component: {fileID: 1387860303}
+  - component: {fileID: 1387860302}
+  m_Layer: 0
+  m_Name: Agent (28)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1387860301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387860300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1387860302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387860300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1387860303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387860300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1387860304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387860300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1455151578
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1455151580}
+  - component: {fileID: 1455151579}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1455151579
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455151578}
+  m_Enabled: 1
+  serializedVersion: 9
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1455151580
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455151578}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1505111085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1505111086}
+  - component: {fileID: 1505111089}
+  - component: {fileID: 1505111088}
+  - component: {fileID: 1505111087}
+  m_Layer: 0
+  m_Name: Agent (37)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1505111086
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505111085}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1505111087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505111085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1505111088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505111085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1505111089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505111085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1507143664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1507143665}
+  - component: {fileID: 1507143668}
+  - component: {fileID: 1507143667}
+  - component: {fileID: 1507143666}
+  m_Layer: 0
+  m_Name: Agent (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1507143665
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507143664}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1507143666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507143664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1507143667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507143664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1507143668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507143664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1510049416
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510049417}
+  - component: {fileID: 1510049420}
+  - component: {fileID: 1510049419}
+  - component: {fileID: 1510049418}
+  m_Layer: 0
+  m_Name: Agent (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1510049417
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510049416}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1510049418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510049416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1510049419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510049416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1510049420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510049416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1573038083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1573038084}
+  - component: {fileID: 1573038087}
+  - component: {fileID: 1573038086}
+  - component: {fileID: 1573038085}
+  m_Layer: 0
+  m_Name: Agent (38)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1573038084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573038083}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1573038085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573038083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1573038086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573038083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1573038087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1573038083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1659744062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1659744063}
+  - component: {fileID: 1659744066}
+  - component: {fileID: 1659744065}
+  - component: {fileID: 1659744064}
+  m_Layer: 0
+  m_Name: Agent (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1659744063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659744062}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1659744064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659744062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1659744065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659744062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1659744066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659744062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1712778861
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1712778862}
+  - component: {fileID: 1712778865}
+  - component: {fileID: 1712778864}
+  - component: {fileID: 1712778863}
+  m_Layer: 0
+  m_Name: Agent (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1712778862
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712778861}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1712778863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712778861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1712778864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712778861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1712778865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712778861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1800989270
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1800989271}
+  - component: {fileID: 1800989274}
+  - component: {fileID: 1800989273}
+  - component: {fileID: 1800989272}
+  m_Layer: 0
+  m_Name: Agent (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1800989271
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800989270}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1800989272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800989270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1800989273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800989270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1800989274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800989270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1829839542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1829839543}
+  - component: {fileID: 1829839546}
+  - component: {fileID: 1829839545}
+  - component: {fileID: 1829839544}
+  m_Layer: 0
+  m_Name: Agent (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1829839543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829839542}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1829839544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829839542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1829839545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829839542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1829839546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829839542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1863835543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1863835545}
+  - component: {fileID: 1863835544}
+  m_Layer: 0
+  m_Name: Statistics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1863835544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863835543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e39dfbd1b6b2c0e42912c08a5701e406, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 813021548}
+  EnableAutoPauseInEditor: 1
+  AutoPauseAfterNHours: 1
+  RayHeight: 10
+  CrashColor: {r: 1, g: 0, b: 0, a: 1}
+  FinishedColor: {r: 0, g: 1, b: 0, a: 1}
+  StuckColor: {r: 1, g: 1, b: 0, a: 1}
+  TimeoutColor: {r: 1, g: 0, b: 1, a: 1}
+  ShowCrashPositions: 1
+  ShowFinishPositions: 0
+  ShowStuckPositions: 1
+  ShowTimeoutPositions: 1
+  Stats:
+    TotalEndings: 0
+    CountCarCrash: 0
+    CountSuccess: 0
+    CountTimeout: 0
+    CountOutOfPath: 0
+    CountFastFinish: 0
+    CrashRate: 0
+    FinishRate: 0
+    FastFinishRate: 0
+    AverageCarDamage: 0
+    AverageAlignedPercentage: 0
+    AverageEpisodeLength: 0
+    AverageSuccesfullEpisodeLength: 0
+    AverageCrossroadDamage: 0
+    AverageRoadDamage: 0
+    AverageParkingSpaceDamage: 0
+    AverageParkingScore: 0
+    Stats: 
+  time: 0
+--- !u!4 &1863835545
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863835543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -26.697199, y: -38, z: 5.33313}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1885127385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1885127387}
+  - component: {fileID: 1885127386}
+  m_Layer: 0
+  m_Name: Academy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1885127386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885127385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba5d0e27a798c14eac29f3cdb6d2230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 813021548}
+--- !u!4 &1885127387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885127385}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.366859, y: -86.1875, z: -32.850586}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1912138036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1912138037}
+  - component: {fileID: 1912138040}
+  - component: {fileID: 1912138039}
+  - component: {fileID: 1912138038}
+  m_Layer: 0
+  m_Name: Agent (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1912138037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912138036}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1912138038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912138036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1912138039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912138036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1912138040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912138036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &1919716695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919716696}
+  - component: {fileID: 1919716699}
+  - component: {fileID: 1919716698}
+  - component: {fileID: 1919716697}
+  m_Layer: 0
+  m_Name: Agent (29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1919716696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919716695}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1919716697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919716695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &1919716698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919716695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &1919716699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919716695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &2018285258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2018285263}
+  - component: {fileID: 2018285259}
+  - component: {fileID: 2018285261}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2018285259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018285258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e310e1a754c7d7c44bada68d5a6079af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Settings: {fileID: 813021548}
+  NodePrefab: {fileID: 6980422736286376403, guid: 86d97d8b4de82304bbc6425abd46efa7,
+    type: 3}
+  StraightRoadPrefab: {fileID: 5722205235982569504, guid: b69483ba46886a54e813bd8f5c021025,
+    type: 3}
+  RoadPrefab: {fileID: 444726996939075046, guid: 207b74d7993fce2488c68f0f6fedf893,
+    type: 3}
+  ShowNodes: 0
+  ShowStraightRoads: 0
+  WayTypes:
+  - service
+  - trunk
+  - primary
+  - secondary
+  - tertiary
+  - residential
+  - living_street
+  - unclassified
+  Autoscale: 1
+--- !u!114 &2018285261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018285258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d02e74b88a66c374295b1bff836e6062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreventSpawnCrashes: 1
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  EnableFixedRoad: 0
+  FixedStartRoadId: 0
+  EnableFixedLine: 0
+  FixedStartLineId: 1
+  EnableFixedDistanceInLine: 0
+  FixedStartDistanceInLine: 2
+--- !u!4 &2018285263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018285258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 906277440}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2024692752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2024692753}
+  - component: {fileID: 2024692756}
+  - component: {fileID: 2024692755}
+  - component: {fileID: 2024692754}
+  m_Layer: 0
+  m_Name: Agent (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2024692753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024692752}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2024692754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024692752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &2024692755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024692752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &2024692756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2024692752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &2081667048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081667049}
+  - component: {fileID: 2081667052}
+  - component: {fileID: 2081667051}
+  - component: {fileID: 2081667050}
+  m_Layer: 0
+  m_Name: Agent (25)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2081667049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081667048}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2081667050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081667048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &2081667051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081667048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &2081667052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081667048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
+--- !u!1 &2101473840
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2101473841}
+  - component: {fileID: 2101473844}
+  - component: {fileID: 2101473843}
+  - component: {fileID: 2101473842}
+  m_Layer: 0
+  m_Name: Agent (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2101473841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101473840}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1121210102}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2101473842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101473840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99162cde5a2712c489eba8b6de7c65dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  agentParameters:
+    maxStep: 0
+    resetOnDone: 1
+    onDemandDecision: 0
+    numberOfActionsBetweenDecisions: 6
+  m_CumulativeReward: 0
+--- !u!114 &2101473843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101473840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d1c4e0b1822b495aa52bc52839ecb30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_BrainParameters:
+    vectorObservationSize: 354
+    numStackedVectorObservations: 1
+    vectorActionSize: 03000000
+    vectorActionDescriptions: []
+    vectorActionSpaceType: 1
+  m_Model: {fileID: 0}
+  m_InferenceDevice: 0
+  m_BehaviorType: 0
+  m_BehaviorName: DrivingBrain
+  m_TeamID: 0
+  m_useChildSensors: 1
+--- !u!114 &2101473844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101473840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1308869d951e1014dafc5cfab5ebc9ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Statistics: {fileID: 1863835544}
+  Map: {fileID: 2018285259}
+  Settings: {fileID: 813021548}
+  CrashCollider: {fileID: 0}
+  _rb: {fileID: 0}
+  helperGO: {fileID: 0}
+  carObject: {fileID: 0}
+  PathGenerator: {fileID: 2018285261}
+  BreakPoint: 0
+  TotalReward: 0
+  RewardMult: 0
+  AgentDone: 0
+  AgentSuccessful: 0
+  Observations: []
+  RoadObservations: []
+  ObstacleObservations: []
+  PathObservations: []
+  OtherObservations: []
+  throttle: 0
+  steering: 0
+  breakRatio: 0
+  CurrentBehaviourType: 0
+  DrivingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    TotalPathLength: 0
+    BestProgress: 0
+    CurrentProgress: 0
+    DistFromLine: 0
+    IsAligned: 0
+    IsBehindCar: 0
+    ForwardSpeed: 0
+  ParkingBehaviour:
+    Angles: []
+    CarDetectionAngles: []
+    NextPointDistances: []
+    ClosestObstacleDistance: 0
+    NumberOfCrashes: 0
+    Time: 0
+    TimeWithoutMovement: 0
+    CurrentReward: 0
+    LastReward: 0
+    IsInCone: 0
